@@ -1,0 +1,27 @@
+# Copy to rerun/ablation_manifest.yaml and edit the checkpoint paths. Paths are relative to the repository root.
+# `config_key` must match a key of configs/ablation_study.yaml (V1_kg_only, V2_..., etc.); check the exact names there.
+variants:
+  V1:
+    scorer: encoder_mlp              # checkpoint is a torch file with keys "encoder" and "head"
+    checkpoint: models/ablation/v1_encoder_mlp.pt
+    n_layers: 6
+  V2:
+    scorer: exdrkg
+    checkpoint: models/ablation/v2.pt
+    ablation_config: configs/ablation_study.yaml
+    config_key: V2_path_retrieval
+  V3:
+    scorer: exdrkg
+    checkpoint: models/ablation/v3.pt
+    ablation_config: configs/ablation_study.yaml
+    config_key: V3_llm_no_faithfulness
+  V4:
+    scorer: exdrkg
+    checkpoint: models/ablation/v4.pt
+    ablation_config: configs/ablation_study.yaml
+    config_key: V4_faithfulness
+  V5:
+    scorer: exdrkg
+    checkpoint: models/ablation/v5.pt
+    ablation_config: configs/ablation_study.yaml
+    config_key: V5_full

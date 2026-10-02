@@ -1,0 +1,13 @@
+node_type,entities,id_system(s),example_ids
+drug,1605,DrugBank (100.0%),"DB00201, DB09019, DB01267"
+gene,21000,Entrez Gene (100.0%),"5345, 9409, 10848"
+disease,270,DOID (50.7%); UMLS/MedDRA C-code (49.3%),"DOID:14227, DOID:9352, DOID:8778"
+protein,92,Symbol/name (100.0%),"BE0000076, BE0000065, BE0000059"
+pathway,4692,Reactome (61.2%); Symbol/name (38.8%),"PC7_3805, PC7_3964, PC7_1532"
+anatomy,402,UBERON (100.0%),"UBERON:0001533, UBERON:0000020, UBERON:0001690"
+side_effect,6061,UMLS/MedDRA C-code (100.0%); Symbol/name (0.0%),"C0023448, C0575810, C0025193"
+symptom,438,Symbol/name (100.0%),"D020150, D006606, D014826"
+pharm_class,345,ATC/pharm class (100.0%),"N0000007632, N0000011272, N0000178477"
+bio_process,11381,Gene Ontology (100.0%),"GO:0032474, GO:0010536, GO:0010759"
+cell_component,1391,Gene Ontology (100.0%),"GO:0000784, GO:0034677, GO:0098798"
+mol_function,2884,Gene Ontology (100.0%),"GO:0031753, GO:0030619, GO:0018812"

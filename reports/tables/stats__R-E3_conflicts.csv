@@ -1,0 +1,4 @@
+relation_pair,pairs_in_both,edges_up,edges_down,pct_of_smaller
+anatomy upregulates/downregulates gene,0,97842,102239,0.0
+drug upregulates/downregulates gene,0,18754,21100,0.0
+disease upregulates/downregulates gene,0,7730,7623,0.0

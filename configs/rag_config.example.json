@@ -1,0 +1,11 @@
+{
+  "_note": "Fill every field from the ORIGINAL GPT-4+RAG pipeline (the one in the submitted manuscript). Leave null if unknown; the summary prints NOT RECORDED so the gap is visible.",
+  "corpus": {"sources": ["PubMed abstracts", "DrugBank"], "pubmed_snapshot_date": null, "n_documents": null, "date_range": null, "drugbank_version": null},
+  "chunking": {"unit": null, "size_tokens": null, "overlap_tokens": null},
+  "embedding_model": {"name": null, "version_or_revision": null, "dimension": null},
+  "index": {"type": null, "library": null, "metric": null, "parameters": null},
+  "retrieval": {"query_template": null, "top_k_retrieved": null, "top_k_given_to_llm": 10},
+  "reranker": {"used": null, "name": null},
+  "llm": {"prompt_file": null, "max_context_tokens": null},
+  "passages_file": "data/llm/test_pairs.jsonl (field 'passages')"
+}
